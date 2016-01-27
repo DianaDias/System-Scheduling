@@ -6,11 +6,5 @@ P.S. git status
   2- git commit -m "descricao"
   3- git push <branch> (se houver um branch caso contrário será no master)
 
-*Criar Branch
-  git branch teste
-
-*Remover Branch
-  git branch: teste
-
 *Trocar de branch
   git checkout teste
