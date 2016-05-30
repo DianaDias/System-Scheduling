@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Welcomecontrol extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -26,6 +26,7 @@ class Welcome extends CI_Controller {
 	public function novo(){
 		$this->load->view('welcome_novo');
 	}
+
 }
 
 /* End of file welcome.php */
