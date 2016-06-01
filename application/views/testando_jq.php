@@ -41,6 +41,8 @@
         <input type="text" name="email" id="email"/>
         <p>	<button id="btn-salvar">Salvar</button></p>
       </form>
+      <br>
+      <a href="{base_url}"> << Voltar </a>
     </div>
   <!--  <script type="text/javascript"> salvar(); </script> -->
   </body>

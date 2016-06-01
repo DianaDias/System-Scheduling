@@ -23,10 +23,6 @@ class Welcomecontrol extends CI_Controller {
 		//$this->novo();
 	}
 
-	public function novo(){
-		$this->load->view('welcome_novo');
-	}
-
 }
 
 /* End of file welcome.php */

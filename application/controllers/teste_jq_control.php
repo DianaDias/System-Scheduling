@@ -5,7 +5,7 @@
 */
 class Teste_jq_control extends CI_Controller {
 
-  public function teste(){
+  public function formulario_cadastro(){
     //esse parse é para podermos usar o base_url ele pode trabalhar com varios parametros
     $this->parser->parse('testando_jq', array( 'base_url' => base_url()));
     // echo base_url();
@@ -24,5 +24,9 @@ class Teste_jq_control extends CI_Controller {
     }else{
       echo 0;
     }
+  }
+
+  public function lista_clientes() {
+    $this->parser->parse('lista_cliente_v', array('base_url' => base_url()));
   }
 }
