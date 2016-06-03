@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Welcome to CodeIgniter</title>
-	<link rel="stylesheet" href="includes/css/estilo_teste.css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="includes/css/estilo_teste.css">
 </head>
 <body>
 

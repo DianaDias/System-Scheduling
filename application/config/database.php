@@ -50,8 +50,8 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
-$db['default']['password'] = '100006';
-$db['default']['database'] = 'teste_CI';
+$db['default']['password'] = 'lima';
+$db['default']['database'] = 'ci_sistema_cadastro';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

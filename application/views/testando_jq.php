@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="{base_url}includes/css/estilo_teste.css">
-  <script type="text/javascript" src="{base_url}includes/js/jquery/jquery.js"></script>
+  <!-- <script type="text/javascript" src="includes/js/jquery/jquery.js"></script> -->
   <title>Welcome to CodeIgniter</title>
 <script>
   //criei esta variavel pq o base_url é javascript e tinha que atricuir o valor base_url do php
- var base_url = {base_url};
+ var base_url = '{base_url}';
   // função para salvar os dados do fomulario
 
   $(function(){
@@ -37,9 +37,9 @@
       <h1>Cadastro usuário novo controller</h1>
       <p>	Nome:
         <input type="text" name="nome" id="nome"/></p>
-        Email:
+      <p> Email:
         <input type="text" name="email" id="email"/>
-        <p>	<button id="btn-salvar">Salvar</button></p>
+        	<button id="btn-salvar">Salvar</button></p>
       </form>
       <br>
       <a href="{base_url}"> << Voltar </a>
