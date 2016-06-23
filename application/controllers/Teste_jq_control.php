@@ -18,7 +18,8 @@ class Teste_jq_control extends CI_Controller {
     $dados = array('nome' => $nome,
                    'email'=> $email);
     //inseri no banco
-    if ($this->db->insert("clientes", $dados)) {
+    $resultado = $this->db->insert("clientes", $dados);
+    if ($resultado) {
         echo 1;
       }else{
         echo 0;
