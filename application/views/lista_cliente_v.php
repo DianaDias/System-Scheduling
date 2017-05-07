@@ -11,10 +11,13 @@
 
       <div class="">
 
-        <h1>Aqui em breve poderá ser listado os clientes.<br> Aguardem!</h1>
-
+        <h1>Clientes existentes.</h1>
+        <p>Usuário(a).</p>
+        {clientes}
+        <b>{nome}</b><br>
+        {/clientes}
       </div>
-      <a href="{base_url}"> << Voltar </a>
+      <br><a href="{base_url}"> << Voltar </a>
     </div>
 
   </body>

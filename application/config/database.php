@@ -74,12 +74,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
+	'dsn'	=> 'mysql:localhost;dbname=ci_sistema_cadastro',
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => 'lima',
 	'database' => 'ci_sistema_cadastro',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
